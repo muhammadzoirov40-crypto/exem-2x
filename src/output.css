@@ -187,6 +187,9 @@
   .z-\[-1\] {
     z-index: -1;
   }
+  .m-3 {
+    margin: calc(var(--spacing) * 3);
+  }
   .mx-5 {
     margin-inline: calc(var(--spacing) * 5);
   }
@@ -232,17 +235,8 @@
   .mb-5 {
     margin-bottom: calc(var(--spacing) * 5);
   }
-  .ml-20 {
-    margin-left: calc(var(--spacing) * 20);
-  }
-  .ml-\[5\%\] {
-    margin-left: 5%;
-  }
-  .ml-\[10\%\] {
-    margin-left: 10%;
-  }
-  .ml-\[15\%\] {
-    margin-left: 15%;
+  .ml-5 {
+    margin-left: calc(var(--spacing) * 5);
   }
   .ml-\[20\%\] {
     margin-left: 20%;
@@ -267,9 +261,6 @@
   }
   .w-20 {
     width: calc(var(--spacing) * 20);
-  }
-  .w-40 {
-    width: calc(var(--spacing) * 40);
   }
   .w-\[40\%\] {
     width: 40%;
@@ -301,9 +292,6 @@
   .justify-center {
     justify-content: center;
   }
-  .gap-0 {
-    gap: calc(var(--spacing) * 0);
-  }
   .gap-3 {
     gap: calc(var(--spacing) * 3);
   }
@@ -312,12 +300,6 @@
   }
   .gap-10 {
     gap: calc(var(--spacing) * 10);
-  }
-  .gap-13 {
-    gap: calc(var(--spacing) * 13);
-  }
-  .gap-20 {
-    gap: calc(var(--spacing) * 20);
   }
   .rounded-lg {
     border-radius: var(--radius-lg);
@@ -380,9 +362,6 @@
   .px-15 {
     padding-inline: calc(var(--spacing) * 15);
   }
-  .px-20 {
-    padding-inline: calc(var(--spacing) * 20);
-  }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
@@ -401,17 +380,11 @@
   .pt-10 {
     padding-top: calc(var(--spacing) * 10);
   }
-  .pt-20 {
-    padding-top: calc(var(--spacing) * 20);
-  }
   .pb-10 {
     padding-bottom: calc(var(--spacing) * 10);
   }
   .text-center {
     text-align: center;
-  }
-  .text-\[2px\] {
-    font-size: 2px;
   }
   .text-\[10px\] {
     font-size: 10px;
@@ -449,9 +422,6 @@
   }
   .text-\[\#61b5e4\] {
     color: #61b5e4;
-  }
-  .text-\[px\] {
-    color: px;
   }
   .text-blue-500 {
     color: var(--color-blue-500);
