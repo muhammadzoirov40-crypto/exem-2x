@@ -208,6 +208,9 @@
   .my-7 {
     margin-block: calc(var(--spacing) * 7);
   }
+  .my-10 {
+    margin-block: calc(var(--spacing) * 10);
+  }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
   }
@@ -216,6 +219,9 @@
   }
   .mt-5 {
     margin-top: calc(var(--spacing) * 5);
+  }
+  .mt-8 {
+    margin-top: calc(var(--spacing) * 8);
   }
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
@@ -295,6 +301,9 @@
   .justify-center {
     justify-content: center;
   }
+  .gap-1 {
+    gap: calc(var(--spacing) * 1);
+  }
   .gap-3 {
     gap: calc(var(--spacing) * 3);
   }
@@ -303,6 +312,9 @@
   }
   .gap-10 {
     gap: calc(var(--spacing) * 10);
+  }
+  .overflow-auto {
+    overflow: auto;
   }
   .rounded-lg {
     border-radius: var(--radius-lg);
@@ -520,6 +532,11 @@
       top: calc(var(--spacing) * 20);
     }
   }
+  .lg\:mx-3 {
+    @media (width >= 64rem) {
+      margin-inline: calc(var(--spacing) * 3);
+    }
+  }
   .lg\:mx-30 {
     @media (width >= 64rem) {
       margin-inline: calc(var(--spacing) * 30);
@@ -560,11 +577,6 @@
       width: 60%;
     }
   }
-  .lg\:w-\[120\%\] {
-    @media (width >= 64rem) {
-      width: 120%;
-    }
-  }
   .lg\:w-\[150\%\] {
     @media (width >= 64rem) {
       width: 150%;
@@ -573,11 +585,6 @@
   .lg\:w-\[250\%\] {
     @media (width >= 64rem) {
       width: 250%;
-    }
-  }
-  .lg\:w-full {
-    @media (width >= 64rem) {
-      width: 100%;
     }
   }
   .lg\:max-w-300 {
