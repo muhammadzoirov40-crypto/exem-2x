@@ -462,6 +462,11 @@
       margin-block: calc(var(--spacing) * 0);
     }
   }
+  .sm\:my-3 {
+    @media (width >= 40rem) {
+      margin-block: calc(var(--spacing) * 3);
+    }
+  }
   .sm\:my-5 {
     @media (width >= 40rem) {
       margin-block: calc(var(--spacing) * 5);
@@ -527,14 +532,14 @@
       padding-block: calc(var(--spacing) * 3);
     }
   }
+  .sm\:text-\[20px\] {
+    @media (width >= 40rem) {
+      font-size: 20px;
+    }
+  }
   .lg\:top-20 {
     @media (width >= 64rem) {
       top: calc(var(--spacing) * 20);
-    }
-  }
-  .lg\:mx-3 {
-    @media (width >= 64rem) {
-      margin-inline: calc(var(--spacing) * 3);
     }
   }
   .lg\:mx-30 {
