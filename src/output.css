@@ -274,9 +274,6 @@
   .w-20 {
     width: calc(var(--spacing) * 20);
   }
-  .w-90 {
-    width: calc(var(--spacing) * 90);
-  }
   .w-\[40\%\] {
     width: 40%;
   }
@@ -385,6 +382,12 @@
   }
   .px-15 {
     padding-inline: calc(var(--spacing) * 15);
+  }
+  .px-30 {
+    padding-inline: calc(var(--spacing) * 30);
+  }
+  .px-50 {
+    padding-inline: calc(var(--spacing) * 50);
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
@@ -594,19 +597,9 @@
       height: calc(var(--spacing) * 80);
     }
   }
-  .lg\:w-40 {
-    @media (width >= 64rem) {
-      width: calc(var(--spacing) * 40);
-    }
-  }
   .lg\:w-\[30\%\] {
     @media (width >= 64rem) {
       width: 30%;
-    }
-  }
-  .lg\:w-\[40\%\] {
-    @media (width >= 64rem) {
-      width: 40%;
     }
   }
   .lg\:w-\[60\%\] {
